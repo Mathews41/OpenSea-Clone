@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+.menu {
+  width: 375px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+  font-family: "Nunito Sans";
+  box-shadow: black, 5px;
+}
+.dropdown-container {
+  width: 79px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dropdown-container > div {
+  display: flex;
+  flex-direction: row;
+}
+.dropdown-container > div > img {
+  width: 32px;
+  height: 32px;
+}
+.dropdown-container > div > button {
+  width: 32px;
+  border: none;
+  background-color: white;
+}
+.down-icon {
+  width: 18px;
+  height: 18px;
+}
+.search-container {
+  width: 270px;
+  height: 45px;
+  border-style: solid;
+  border: 1px solid rgb(229, 232, 235);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 8px;
+}
+.search-container > div {
+  width: 40px;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+.search-input {
+  width: 210px;
+  height: 43px;
+  border: none;
+  font-size: 14pt;
+  color: rgba(255, 78, 24, 0.534);
+  font-family: "Nunito Sans";
+  margin-left: 16px;
+  outline: none;
+}
+.search-container > input:focus {
+  color: black;
+}
+.check-icon {
+  color: #3291e9;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.main > div {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+}
+.share-row {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.share-row > a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 14pt;
+  text-decoration: none;
+  color: #3291e9;
+  font-family: inherit;
+}
+.share-row > a > span {
+  margin-left: 5px;
+}
+.checked-circle {
+  width: 25px;
+  height: 25px;
+}
+.share-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.share-icons > button {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  margin-bottom: -1px;
+  border-color: rgb(158, 158, 158);
+  border-radius: 5px;
+  border-style: none;
+  margin-right: 5px;
+}
+.s-icons {
+  width: 25px;
+  height: 25px;
+  color: rgb(158, 158, 158);
+}
+.img-container {
+  width: auto;
+  height: 500px;
+  border-radius: 5px;
+  background-color: aquamarine;
+}
+.kitty-img {
+  width: auto;
+  height: 400px;
+}
+.ownership-row {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.dot {
+  margin-right: 8px;
+  color: rgb(204, 127, 255);
+  width: 30px;
+  height: 30px;
+}
+.owned-by {
+  color: rgb(155, 155, 155);
+  margin-right: 5px;
+}
+.owner {
+  color: rgb(13, 172, 245);
+}
+.dropdown-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 90%;
+  height: 70px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px rgb(155, 155, 155);
+  border-radius: 2px;
+  padding: 0px 12px;
+}
+.left-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14pt;
+}
+.button-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.right-column-icon {
+  width: 25px;
+  height: 25px;
+}
